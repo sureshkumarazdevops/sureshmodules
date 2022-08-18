@@ -3,25 +3,25 @@
 variable "poctask" {
   description = "poctask"
   type = string
-  default = "devops"
+  #default = "devops"
 }
 # 2. Environment Name
 variable "environment" {
   description = "Environment Name"
   type = string
-  default = "dev"
+  #default = "dev"
 }
 # 3. Resource Group Name
 variable "resoure_group_name" {
   description = "Resource Group Name"
   type = string
-  default = "myrg"
+  #default = "myrg"
 }
 # 4. Resource Group Location
 variable "resoure_group_location" {
   description = "Resource Group Location"
   type = string
-  default = "eastus"
+  #default = "eastus"
 }
 # 5.Postgresflexiserver
 variable "Postgres_flexiserver_name" {
