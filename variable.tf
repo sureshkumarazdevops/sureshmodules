@@ -28,3 +28,13 @@ variable "Postgres_flexiserver_name" {
   description = "Postgres_flexiserver_name"
   type = string 
 }
+#6.Postgresflexiserver adminlogin
+variable "administrator_login" {
+  description = "PostgreSQL administrator login."
+  type        = string
+}
+#7.Postgresflexiserver adminpassword
+variable "administrator_password" {
+  description = "PostgreSQL administrator password"
+  type        = string
+}
