@@ -22,8 +22,3 @@ output "postgresql_flexible_administrator_password" {
   value       = var.administrator_password
   sensitive   = true
 }
-
-output "postgresql_flexible_databases_names" {
-  description = "Map of databases names."
-  value       = azurerm_postgresql_flexible_server_database.postgresql_flexible_db
-}
