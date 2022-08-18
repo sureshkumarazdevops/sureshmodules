@@ -11,3 +11,4 @@ resource "azurerm_postgresql_flexible_server" "postgreserver" {
   storage_mb = 32768
   sku_name   = "GP_Standard_D4s_v3"
 }
+}
