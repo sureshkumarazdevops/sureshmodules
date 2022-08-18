@@ -1,3 +1,5 @@
+module "postgress" {
+source = "https://github.com/sureshkumarazdevops/sureshmodules"
 resource "azurerm_postgresql_flexible_server" "postgreserver" {
   name                   = var.postgresever_name
   resource_group_name    = azurerm_resource_group.postgres.name
