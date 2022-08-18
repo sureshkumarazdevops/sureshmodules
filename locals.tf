@@ -5,7 +5,7 @@ locals {
   #vm_name = "${var.business_unit}-${var.environment}-${var.virtual_machine_name}"
   
   rg_name = "${var.poctask}-${terraform.workspace}-${var.resoure_group_name}"
-  vm_name = "${var.poctask}-${terraform.workspace}-${var.virtual_machine_name}"
+  pgsf_name = "${var.poctask}-${terraform.workspace}-${var.Postgres_flexiserver_name}"
   
 
   # Use-case-2: Common tags to be assigned to all resources
